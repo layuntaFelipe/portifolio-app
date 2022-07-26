@@ -167,12 +167,11 @@
 .skillsContainer {
   background-color: #222222;
   width: 85%;
-  height: 40rem;
   margin: 0 auto;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 50px;
   text-align: center;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem 4rem 2rem;
 }
 .skillsContainer h1 {
   color: gainsboro;
@@ -185,7 +184,8 @@
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 3rem;
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
 }
 .icons-skills {
@@ -200,12 +200,97 @@
   padding: 1.5rem 1rem;
   width: 6rem;
   border-radius: 20px;
+  transition: 1s;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .skillsIconContainer h5 {
   color: rgba(255, 255, 255, 0.545);
   font-weight: 400;
   font-size: 1rem;
 }
+.skillsIconContainer:hover{
+  transition: 0s;
+  box-shadow: 0 0 20px #0f0;
+}
+.skillsContainer hr {
+  margin: 3rem 0;
+}
+
+
+/* PROJECTS PAGE */
+/* PROJECTS PAGE */
+
+.projectHeaderText {
+  color: gainsboro;
+  text-align: center;
+  font-size: 3.5rem;
+}
+.projectHeaderInfo{
+  color: rgba(255, 255, 255, 0.545);
+  text-align: center;
+  padding: 1rem 6rem;
+}
+.right-image-projects {
+  overflow: auto;
+  margin: 5rem 0;
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.545);
+  position: relative;
+}
+.projectImage {
+  width: 45%;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.right-image-projects .projectImage {
+  float: right;
+  overflow: auto;
+}
+.left-image-projects {
+  overflow: auto;
+  color: rgba(255, 255, 255, 0.545);
+}
+.left-image-projects .projectImage {
+  float: left;
+  overflow: auto;
+}
+.projectHeader{
+  display: flex;
+  position: relative;
+}
+.projectLinkDiv {
+  position: absolute;
+  right: 3rem;
+  bottom: 0;
+  transform: translateY(-80%);
+}
+.pojectLinkIcons {
+  padding: 0 1rem;
+}
+.projectMoreInfo{
+  text-decoration: none;
+  color: rgba(0, 255, 0, 0.572);
+}
+.projectMoreInfo:hover {
+  color: #0f0;
+  text-shadow: 0 0 20px #0f0;
+  transform: scale(105%);
+}
+.right-image-projects .projectMoreInfo {
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+}
+.projectTitle{
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 0 0 2rem 0;
+  color: #15ff0089;
+}
+.projectInfo p {
+  font-size: 1.4rem;
+}
+
 
 
 

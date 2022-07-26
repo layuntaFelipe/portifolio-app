@@ -4,6 +4,7 @@ import {useEffect, useState} from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 function App() {
   const iconsList = [<FaCode className='icon' />, <FaCss3Alt className='icon' />, <FaHtml5 className='icon' />, <FaReact className='icon' />, <SiJavascript className='icon' />, <FaDatabase className='icon' />];
@@ -16,7 +17,7 @@ function App() {
 
   const buildRandomIcons = () => {
     let newIcons = [];
-    for (let i = 0; i < 300; i++) {
+    for (let i = 0; i < 700; i++) {
       newIcons.push(iconsList[Math.floor(Math.random() * 6)])
     }
     return [newIcons];
@@ -28,6 +29,7 @@ function App() {
         <Navbar/>
         <Hero/>
         <Skills/>
+        <Projects/>
       </div>
       <div className="background">
           {iconsNumber.map((icon, index) => (

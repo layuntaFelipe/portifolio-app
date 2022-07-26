@@ -1,11 +1,14 @@
 import React from 'react';
-import {FaCss3Alt, FaHtml5, FaReact, FaSwift, FaGit, FaGithub, FaNodeJs} from 'react-icons/fa';
-import {SiJavascript, SiExpress, SiFirebase, SiMongodb, SiMysql} from 'react-icons/si';
+import {FaCss3Alt, FaHtml5, FaReact, FaSwift, FaGit, FaGithub, FaNodeJs, FaAssistiveListeningSystems} from 'react-icons/fa';
+import {SiJavascript, SiExpress, SiFirebase, SiMongodb, SiMysql, SiMinds} from 'react-icons/si';
+import {RiTeamFill} from 'react-icons/ri';
+import {GiWalkieTalkie} from 'react-icons/gi'
+import {GoTools} from 'react-icons/go';
 
 const Skills = () => {
   return (
     <div className='skillsContainer'>
-      <h1>Skills</h1>
+      <h1>Technical Skills</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem amet suscipit, maxime repudiandae sit consequatur ipsa veniam tenetur cupiditate ducimus.</p>
       <div className="flex-container">
        <div className="skillsIconContainer">
@@ -49,6 +52,31 @@ const Skills = () => {
         <FaGithub className='icons-skills' color='#ffffff' />
         <h5>GitHub</h5>
        </div>
+      </div>
+      <hr />
+      <h1>Soft Skills</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem amet suscipit, maxime repudiandae sit consequatur ipsa veniam tenetur cupiditate ducimus.</p>
+      <div className="flex-container">
+        <div className="skillsIconContainer" style={{width: '8rem'}}>
+          <GoTools className='icons-skills' color='#0f0' />
+          <h5>Problem Solving</h5>
+        </div>
+        <div className="skillsIconContainer" style={{width: '8rem'}}>
+          <RiTeamFill className='icons-skills' color='#0f0' />
+          <h5>Teamwork</h5>
+        </div>
+        <div className="skillsIconContainer" style={{width: '8rem'}}>
+          <SiMinds className='icons-skills' color='#0f0' />
+          <h5>Growth Mindset</h5>
+        </div>
+        <div className="skillsIconContainer" style={{width: '8rem'}}>
+          <FaAssistiveListeningSystems className='icons-skills' color='#0f0' />
+          <h5>Active Listening</h5>
+        </div>
+        <div className="skillsIconContainer" style={{width: '8rem'}}>
+          <GiWalkieTalkie className='icons-skills' color='#0f0' />
+          <h5>Communication Skills</h5>
+        </div>
       </div>
     </div>
   )
