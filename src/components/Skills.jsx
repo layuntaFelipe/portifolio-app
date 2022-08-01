@@ -9,7 +9,7 @@ const Skills = () => {
   return (
     <div className='skillsContainer'>
       <h1>Technical Skills</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem amet suscipit, maxime repudiandae sit consequatur ipsa veniam tenetur cupiditate ducimus.</p>
+      <p className='projectHeaderInfo'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem amet suscipit, maxime repudiandae sit consequatur ipsa veniam tenetur cupiditate ducimus.</p>
       <div className="flex-container">
        <div className="skillsIconContainer">
         <FaCss3Alt className='icons-skills' color='#379AD6' />
@@ -55,7 +55,7 @@ const Skills = () => {
       </div>
       <hr />
       <h1>Soft Skills</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem amet suscipit, maxime repudiandae sit consequatur ipsa veniam tenetur cupiditate ducimus.</p>
+      <p className='projectHeaderInfo'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem amet suscipit, maxime repudiandae sit consequatur ipsa veniam tenetur cupiditate ducimus.</p>
       <div className="flex-container">
         <div className="skillsIconContainer" style={{width: '8rem'}}>
           <GoTools className='icons-skills' color='#0f0' />

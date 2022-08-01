@@ -224,6 +224,7 @@
   color: gainsboro;
   text-align: center;
   font-size: 3.5rem;
+  padding-top: 3rem;
 }
 .projectHeaderInfo{
   color: rgba(255, 255, 255, 0.545);
@@ -232,15 +233,21 @@
 }
 .right-image-projects {
   overflow: auto;
-  margin: 5rem 0;
-  padding: 1rem;
+  margin: 6rem 0 8rem 0;
+  padding: 2rem;
   color: rgba(255, 255, 255, 0.545);
   position: relative;
 }
 .projectImage {
-  width: 45%;
+  width: 47%;
   border-radius: 30px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 1s;
+  margin: 1rem;
+}
+.projectImage:hover {
+  transition: 0s;
+  box-shadow: 0 0 20px #0f0;
 }
 .right-image-projects .projectImage {
   float: right;
@@ -249,20 +256,33 @@
 .left-image-projects {
   overflow: auto;
   color: rgba(255, 255, 255, 0.545);
+  padding: 2rem;
 }
 .left-image-projects .projectImage {
   float: left;
   overflow: auto;
 }
+.left-image-projects .projectSingleContainer {
+  text-align: right;
+}
 .projectHeader{
   display: flex;
   position: relative;
 }
-.projectLinkDiv {
+.right-image-projects .projectLinkDiv {
   position: absolute;
   right: 3rem;
   bottom: 0;
   transform: translateY(-80%);
+}
+.left-image-projects .projectLinkDiv {
+  position: absolute;
+  left: 3rem;
+  bottom: 0;
+  transform: translateY(-80%);
+}
+.left-image-projects .projectTitle {
+  margin-left: 35%;
 }
 .pojectLinkIcons {
   padding: 0 1rem;
@@ -290,6 +310,8 @@
 .projectInfo p {
   font-size: 1.4rem;
 }
+
+
 
 
 
