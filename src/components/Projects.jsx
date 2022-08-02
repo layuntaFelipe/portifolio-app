@@ -1,5 +1,7 @@
 import React from 'react';
-import projectImage from '../assets/chefsEyeWebImage.png';
+import chefsWebImage from '../assets/chefsEyeWebImage.png';
+import cryptoWeb from '../assets/cryptoWeb.png';
+import houseMarketWeb from '../assets/houseMarketWeb.png';
 import {FaGithub, FaLink, FaCss3Alt, FaHtml5, FaGit, FaReact, FaNodeJs} from 'react-icons/fa';
 import {SiJavascript, SiFirebase, SiExpress, SiMongodb} from 'react-icons/si'
 
@@ -11,7 +13,7 @@ const Projects = () => {
 
 
       <div className="right-image-projects">
-        <img className='projectImage' src={projectImage} alt="" />
+        <img className='projectImage' src={chefsWebImage} alt="" />
         <div className="projectSingleContainer">
           <div className="projectHeader">
             <div className="projectTitle">
@@ -36,7 +38,7 @@ const Projects = () => {
       </div>
 
       <div className="left-image-projects">
-        <img className='projectImage' src={projectImage} alt="" />
+        <img className='projectImage' src={cryptoWeb} alt="" />
         <div className="projectSingleContainer">
           <div className="projectHeader">
             <div className="projectLinkDiv">
@@ -44,7 +46,7 @@ const Projects = () => {
               <FaLink className='pojectLinkIcons'/>
             </div>
             <div className="projectTitle">
-              API Project
+              Crypto Nummum
             </div>
           </div>
           <div className="projectInfo">
@@ -62,7 +64,7 @@ const Projects = () => {
       </div>
 
       <div className="right-image-projects">
-        <img className='projectImage' src={projectImage} alt="" />
+        <img className='projectImage' src={houseMarketWeb} alt="" />
         <div className="projectSingleContainer">
           <div className="projectHeader">
             <div className="projectTitle">
@@ -89,7 +91,7 @@ const Projects = () => {
       </div>
 
       <div className="left-image-projects">
-        <img className='projectImage' src={projectImage} alt="" />
+        <img className='projectImage' src={chefsWebImage} alt="" />
         <div className="projectSingleContainer">
           <div className="projectHeader">
             <div className="projectLinkDiv">
@@ -118,7 +120,7 @@ const Projects = () => {
       </div>
 
       <div className="right-image-projects">
-        <img className='projectImage' src={projectImage} alt="" />
+        <img className='projectImage' src={chefsWebImage} alt="" />
         <div className="projectSingleContainer">
           <div className="projectHeader">
             <div className="projectTitle">
