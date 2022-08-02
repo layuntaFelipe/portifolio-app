@@ -50,7 +50,7 @@
   padding-top: 1rem;
 }
 #logo {
-  width: 4.5rem;
+  width: 4rem;
   height: auto;
 }
 .navbar .navbarLinksPage {
@@ -59,9 +59,9 @@
 }
 .navbar .navbarLinksPage li {
   color: rgba(255, 255, 255, 0.545);
-  height: 2rem;
+  height: 1.5rem;
   margin: 0 0.8rem;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   cursor: pointer;
   padding: 0.5rem 1rem;
   border: 2px solid #252525;
@@ -80,7 +80,7 @@
   transform: scale(105%);
 }
 .socialsDiv {
-  margin: 0 3rem 0 2rem;
+  margin: 0 1.4rem 0 1rem;
 }
 .navbarSocialLinks {
   display: flex;
@@ -92,8 +92,8 @@
   cursor: pointer;
 }
 .socialIcons {
-  width: 26px;
-  height: 26px;
+  width: 30px;
+  height: 30px;
 }
 .socialIcons:hover{
   color: #0f0;
@@ -105,9 +105,9 @@
   color: #222222;;
   border: none;
   border-radius: 10px;
-  height: 3.7rem;
+  height: 3.2rem;
   padding: 0 1.3rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
@@ -115,10 +115,10 @@
 /* HERO PAGE */
 /* HERO PAGE */
 .heroContainer{
-  margin: 5rem 2rem 7.5rem 3rem;
+  margin: 4rem 2rem 7.5rem 3rem;
 }
 .heroImage {
-  width: 35rem;
+  width: 30rem;
   float: right;
   overflow: auto;
   background-color: rgba(0, 255, 0, 0.294);
@@ -131,27 +131,29 @@
   padding: 0;
 }
 .heroInfo {
-  padding-top: 6rem;
+  padding-top: 3rem;
   color: rgba(255, 255, 255, 0.545);
 }
 .heroInfo h6 {
   background-color: rgba(0, 255, 0, 0.112);
-  width: 16rem;
+  width: 14.5rem;
   padding: 1rem;
   border: 2px solid #0f0;
   border-radius: 4px;
   text-align: center;
+  font-size: 1rem;
 }
 .heroInfo h1 {
-  font-size: 3.8rem;
+  font-size: 3rem;
   margin: 1rem 0 2rem 0;
 }
 .heroInfo p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin-bottom: 1.6rem;
 }
 .heroInfo a {
   color: rgba(0, 255, 0, 0.572);
+  font-size: 1.3rem;
   text-decoration: none;
   position: relative;
 }
@@ -175,11 +177,13 @@
 }
 .skillsContainer h1 {
   color: gainsboro;
+  font-size: 3rem;
   padding: 1rem 0 1rem 0;
 }
 .skillsContainer p {
   color: rgba(255, 255, 255, 0.545);
   margin-bottom: 2rem;
+  font-size: 1.2rem;
 }
 .flex-container {
   display: flex;
@@ -189,8 +193,8 @@
   text-align: center;
 }
 .icons-skills {
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 4rem;
+  height: 4rem;
   user-select: none;
   cursor: default;
 }
@@ -198,7 +202,7 @@
   background-color: #252525;
   margin: 1rem;
   padding: 1.5rem 1rem;
-  width: 6rem;
+  width: 5rem;
   border-radius: 20px;
   transition: 1s;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -223,17 +227,18 @@
 .projectHeaderText {
   color: gainsboro;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3rem;
   padding-top: 3rem;
 }
 .projectHeaderInfo{
   color: rgba(255, 255, 255, 0.545);
   text-align: center;
   padding: 1rem 6rem;
+  font-size: 1.2rem;
 }
 .right-image-projects {
   overflow: auto;
-  margin: 6rem 0 8rem 0;
+  margin: 3rem 0 4rem 0;
   padding: 2rem;
   color: rgba(255, 255, 255, 0.545);
   position: relative;
@@ -289,6 +294,7 @@
 }
 .projectMoreInfo{
   text-decoration: none;
+  font-size: 1.3rem;
   color: rgba(0, 255, 0, 0.572);
 }
 .projectMoreInfo:hover {
@@ -302,13 +308,13 @@
   left: 2rem;
 }
 .projectTitle{
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 700;
   margin: 0 0 2rem 0;
   color: #15ff0089;
 }
 .projectInfo p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 

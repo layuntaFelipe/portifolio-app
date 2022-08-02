@@ -57,19 +57,19 @@ const Skills = () => {
       <h1>Soft Skills</h1>
       <p className='projectHeaderInfo'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem amet suscipit, maxime repudiandae sit consequatur ipsa veniam tenetur cupiditate ducimus.</p>
       <div className="flex-container">
-        <div className="skillsIconContainer" style={{width: '8rem'}}>
+        <div className="skillsIconContainer" style={{width: '7rem'}}>
           <GoTools className='icons-skills' color='#0f0' />
           <h5>Problem Solving</h5>
         </div>
-        <div className="skillsIconContainer" style={{width: '8rem'}}>
+        <div className="skillsIconContainer" style={{width: '7rem'}}>
           <RiTeamFill className='icons-skills' color='#0f0' />
           <h5>Teamwork</h5>
         </div>
-        <div className="skillsIconContainer" style={{width: '8rem'}}>
+        <div className="skillsIconContainer" style={{width: '7rem'}}>
           <SiMinds className='icons-skills' color='#0f0' />
           <h5>Growth Mindset</h5>
         </div>
-        <div className="skillsIconContainer" style={{width: '8rem'}}>
+        <div className="skillsIconContainer" style={{width: '7rem'}}>
           <FaAssistiveListeningSystems className='icons-skills' color='#0f0' />
           <h5>Active Listening</h5>
         </div>

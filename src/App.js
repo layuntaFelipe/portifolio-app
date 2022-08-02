@@ -19,7 +19,7 @@ function App() {
 
   const buildRandomIcons = () => {
     let newIcons = [];
-    for (let i = 0; i < 800; i++) {
+    for (let i = 0; i < 900; i++) {
       newIcons.push(iconsList[Math.floor(Math.random() * 6)])
     }
     return [newIcons];
