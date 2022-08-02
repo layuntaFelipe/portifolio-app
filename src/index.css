@@ -377,6 +377,17 @@
   cursor: pointer;
 }
 
+.spanSurprice, .hoverSurprice {
+  text-align: center;
+}
+.spanSurprice{
+  margin-top: 4rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+.hoverSurprice {
+  color: rgba(255, 255, 255, 0.566);
+}
+
 
 
 

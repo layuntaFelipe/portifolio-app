@@ -20,6 +20,8 @@ const Contact = () => {
         <FaInstagram className='socialContactIcon' />
         <FaGithub className='socialContactIcon' />
       </div>
+      <p className='spanSurprice'>if you got to here, there is a surprise for you</p>
+      <h6 className='hoverSurprice'>{`Hover over the background below to see it ;)`}</h6>
     </div>
   )
 }
