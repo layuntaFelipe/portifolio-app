@@ -26,13 +26,13 @@ const Projects = () => {
           </div>
           <div className="projectInfo">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugiat sed architecto sint at doloremque aperiam necessitatibus delectus hic consectetur asperiores, doloribus sit accusantium! Distinctio dolorum deleniti fuga ex. Repudiandae.</p>
-            <a className='projectMoreInfo' href="">Dive in for more</a>
             <div className="skillsUsed">
-              <FaCss3Alt color='#379AD6' />
-              <FaHtml5 color='#E44D26' />
-              <SiJavascript color='#F7E017'/>
-              <FaGit color='#F05133' />
+              <FaCss3Alt className='projectIconUsed' color='#379AD6' />
+              <FaHtml5 className='projectIconUsed' color='#E44D26' />
+              <SiJavascript className='projectIconUsed' color='#F7E017'/>
+              <FaGit className='projectIconUsed' color='#F05133' />
             </div>
+            <a className='projectMoreInfo' href="">Dive in for more</a>
           </div>
         </div>
       </div>
@@ -52,11 +52,11 @@ const Projects = () => {
           <div className="projectInfo">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugiat sed architecto sint at doloremque aperiam necessitatibus delectus hic consectetur asperiores, doloribus sit accusantium! Distinctio dolorum deleniti fuga ex. Repudiandae.</p>
             <div className="skillsUsed">
-              <FaCss3Alt color='#379AD6' />
-              <FaHtml5 color='#E44D26' />
-              <SiJavascript color='#F7E017'/>
-              <FaReact color='#60DBFB' />
-              <FaGit color='#F05133' />
+              <FaCss3Alt className='projectIconUsed' color='#379AD6' />
+              <FaHtml5 className='projectIconUsed' color='#E44D26' />
+              <SiJavascript className='projectIconUsed' color='#F7E017'/>
+              <FaReact className='projectIconUsed' color='#60DBFB' />
+              <FaGit className='projectIconUsed' color='#F05133' />
             </div>
             <a className='projectMoreInfo' href="">Dive in for more</a>
           </div>
@@ -77,15 +77,15 @@ const Projects = () => {
           </div>
           <div className="projectInfo">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugiat sed architecto sint at doloremque aperiam necessitatibus delectus hic consectetur asperiores, doloribus sit accusantium! Distinctio dolorum deleniti fuga ex. Repudiandae.</p>
-            <a className='projectMoreInfo' href="">Dive in for more</a>
             <div className="skillsUsed">
-              <FaCss3Alt color='#379AD6' />
-              <FaHtml5 color='#E44D26' />
-              <SiJavascript color='#F7E017'/>
-              <FaReact color='#60DBFB' />
-              <SiFirebase color='#FFCB2D' />
-              <FaGit color='#F05133' />
+              <FaCss3Alt className='projectIconUsed' color='#379AD6' />
+              <FaHtml5 className='projectIconUsed' color='#E44D26' />
+              <SiJavascript className='projectIconUsed' color='#F7E017'/>
+              <FaReact className='projectIconUsed' color='#60DBFB' />
+              <SiFirebase className='projectIconUsed' color='#FFCB2D' />
+              <FaGit className='projectIconUsed' color='#F05133' />
             </div>
+            <a className='projectMoreInfo' href="">Dive in for more</a>
           </div>
         </div>
       </div>
@@ -105,14 +105,14 @@ const Projects = () => {
           <div className="projectInfo">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugiat sed architecto sint at doloremque aperiam necessitatibus delectus hic consectetur asperiores, doloribus sit accusantium! Distinctio dolorum deleniti fuga ex. Repudiandae.</p>
             <div className="skillsUsed">
-              <FaCss3Alt color='#379AD6' />
-              <FaHtml5 color='#E44D26' />
-              <SiJavascript color='#F7E017'/>
-              <FaReact color='#60DBFB' />
-              <FaNodeJs color='#90C53F' />
-              <SiMongodb color='#51AB4C' />
-              <SiExpress color='#009F38' />
-              <FaGit color='#F05133' />
+              <FaCss3Alt className='projectIconUsed' color='#379AD6' />
+              <FaHtml5 className='projectIconUsed' color='#E44D26' />
+              <SiJavascript className='projectIconUsed' color='#F7E017'/>
+              <FaReact className='projectIconUsed' color='#60DBFB' />
+              <FaNodeJs className='projectIconUsed' color='#90C53F' />
+              <SiMongodb className='projectIconUsed' color='#51AB4C' />
+              <SiExpress className='projectIconUsed' color='#009F38' />
+              <FaGit className='projectIconUsed' color='#F05133' />
             </div>
             <a className='projectMoreInfo' href="">Dive in for more</a>
           </div>
@@ -133,17 +133,17 @@ const Projects = () => {
           </div>
           <div className="projectInfo">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugiat sed architecto sint at doloremque aperiam necessitatibus delectus hic consectetur asperiores, doloribus sit accusantium! Distinctio dolorum deleniti fuga ex. Repudiandae.</p>
-            <a className='projectMoreInfo' href="">Dive in for more</a>
             <div className="skillsUsed">
-              <FaCss3Alt color='#379AD6' />
-              <FaHtml5 color='#E44D26' />
-              <SiJavascript color='#F7E017'/>
-              <FaReact color='#60DBFB' />
-              <FaNodeJs color='#90C53F' />
-              <SiMongodb color='#51AB4C' />
-              <SiExpress color='#009F38' />
-              <FaGit color='#F05133' />
+              <FaCss3Alt className='projectIconUsed' color='#379AD6' />
+              <FaHtml5 className='projectIconUsed' color='#E44D26' />
+              <SiJavascript className='projectIconUsed' color='#F7E017'/>
+              <FaReact className='projectIconUsed' color='#60DBFB' />
+              <FaNodeJs className='projectIconUsed' color='#90C53F' />
+              <SiMongodb className='projectIconUsed' color='#51AB4C' />
+              <SiExpress className='projectIconUsed' color='#009F38' />
+              <FaGit className='projectIconUsed' color='#F05133' />
             </div>
+            <a className='projectMoreInfo' href="">Dive in for more</a>
           </div>
         </div>
       </div>
