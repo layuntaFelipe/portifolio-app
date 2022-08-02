@@ -1,6 +1,6 @@
-import {FaCode, FaCss3Alt, FaHtml5, FaReact, FaDatabase} from 'react-icons/fa';
-import {SiJavascript} from 'react-icons/si';
-import {useEffect, useState} from 'react';
+import { FaCode, FaCss3Alt, FaHtml5, FaReact, FaDatabase } from 'react-icons/fa';
+import { SiJavascript } from 'react-icons/si';
+import { useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
@@ -19,7 +19,7 @@ function App() {
 
   const buildRandomIcons = () => {
     let newIcons = [];
-    for (let i = 0; i < 900; i++) {
+    for (let i = 0; i < 1800; i++) {
       newIcons.push(iconsList[Math.floor(Math.random() * 6)])
     }
     return [newIcons];
@@ -27,20 +27,20 @@ function App() {
 
   return (
     <div id="wrapper">
-      <div className="content">  
-        <Navbar/>
-        <Hero/>
-        <Skills/>
-        <Projects/>
-        <MoreAboutMe/>
-        <Contact/>
+      <div className="content">
+        <Navbar />
+        <Hero />
+        <Skills />
+        <Projects />
+        <MoreAboutMe />
+        <Contact />
       </div>
       <div className="background">
-          {iconsNumber.map((icon, index) => (
-            <div key={index}>
-              {icon}
-            </div>
-          ))}
+        {iconsNumber.map((icon, index) => (
+          <div key={index}>
+            {icon}
+          </div>
+        ))}
       </div>
     </div>
   );
