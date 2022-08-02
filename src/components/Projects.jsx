@@ -2,12 +2,14 @@ import React from 'react';
 import chefsWebImage from '../assets/chefsEyeWebImage.png';
 import cryptoWeb from '../assets/cryptoWeb.png';
 import houseMarketWeb from '../assets/houseMarketWeb.png';
+import appleSupportDesk from '../assets/appleSupportDesk.png';
+import chefsEyeSoftware from '../assets/chefsEyeSoftware.png';
 import {FaGithub, FaLink, FaCss3Alt, FaHtml5, FaGit, FaReact, FaNodeJs} from 'react-icons/fa';
 import {SiJavascript, SiFirebase, SiExpress, SiMongodb} from 'react-icons/si'
 
 const Projects = () => {
   return (
-    <div className='heroContainer'>
+    <div className='heroContainer' id='projects'>
       <h1 className='projectHeaderText'>Projects</h1>
       <p className='projectHeaderInfo'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quis laboriosam officiis obcaecati minus harum ducimus reprehenderit animi enim alias? Quam quaerat dicta consequatur sequi.</p>
 
@@ -20,7 +22,7 @@ const Projects = () => {
               Chef's Eye Website
             </div>
             <div className="projectLinkDiv">
-              <FaGithub className='pojectLinkIcons'/>
+              <a href="https://github.com/layuntaFelipe/ChefsEye-Software" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
               <FaLink className='pojectLinkIcons' />
             </div>
           </div>
@@ -42,7 +44,7 @@ const Projects = () => {
         <div className="projectSingleContainer">
           <div className="projectHeader">
             <div className="projectLinkDiv">
-              <FaGithub className='pojectLinkIcons'/>
+              <a href="https://github.com/layuntaFelipe/crypto-nummum" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
               <FaLink className='pojectLinkIcons'/>
             </div>
             <div className="projectTitle">
@@ -71,8 +73,8 @@ const Projects = () => {
               House Market Web
             </div>
             <div className="projectLinkDiv">
-              <FaGithub className='pojectLinkIcons'/>
-              <FaLink className='pojectLinkIcons' />
+              <a href="https://github.com/layuntaFelipe/house-market-app" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
+              <a href="https://house-market-app-plum.vercel.app/" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaLink className='pojectLinkIcons' /></a>
             </div>
           </div>
           <div className="projectInfo">
@@ -91,15 +93,15 @@ const Projects = () => {
       </div>
 
       <div className="left-image-projects">
-        <img className='projectImage' src={chefsWebImage} alt="" />
+        <img className='projectImage' src={appleSupportDesk} alt="" />
         <div className="projectSingleContainer">
           <div className="projectHeader">
             <div className="projectLinkDiv">
-              <FaGithub className='pojectLinkIcons'/>
+              <a href="https://github.com/layuntaFelipe/support-desk" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
               <FaLink className='pojectLinkIcons'/>
             </div>
             <div className="projectTitle">
-              Pear Tech Support
+              Apple Tech Support
             </div>
           </div>
           <div className="projectInfo">
@@ -120,14 +122,14 @@ const Projects = () => {
       </div>
 
       <div className="right-image-projects">
-        <img className='projectImage' src={chefsWebImage} alt="" />
+        <img className='projectImage' src={chefsEyeSoftware} alt="" />
         <div className="projectSingleContainer">
           <div className="projectHeader">
             <div className="projectTitle">
               Chef's Eye Software
             </div>
             <div className="projectLinkDiv">
-              <FaGithub className='pojectLinkIcons'/>
+              <a href="https://github.com/layuntaFelipe/ChefsEye-Software" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
               <FaLink className='pojectLinkIcons' />
             </div>
           </div>

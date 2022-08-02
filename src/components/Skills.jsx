@@ -7,7 +7,7 @@ import {GoTools} from 'react-icons/go';
 
 const Skills = () => {
   return (
-    <div className='skillsContainer'>
+    <div className='skillsContainer' id='skills'>
       <h1>Technical Skills</h1>
       <p className='projectHeaderInfo'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem amet suscipit, maxime repudiandae sit consequatur ipsa veniam tenetur cupiditate ducimus.</p>
       <div className="flex-container">
