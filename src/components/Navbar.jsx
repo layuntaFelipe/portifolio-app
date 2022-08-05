@@ -22,7 +22,7 @@ const Navbar = () => {
               <li><a href="https://github.com/layuntaFelipe/house-market-app" rel='noreferrer' target='_blank' style={{color: 'rgba(255, 255, 255, 0.545)'}}><FaInstagram className='socialIcons'/></a></li>
             </ul>
           </div>
-          <Link to='contact' spy={true} smooth={true} offset={-100} duration={500}><button className='btnPrimary'>Click Me</button></Link>
+          <Link to='contact' spy={true} smooth={true} offset={-100} duration={500}><button className='btnPrimary'>Contact Me</button></Link>
         </div>
       </div>
     </div>

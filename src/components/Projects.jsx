@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <div className='heroContainer' id='projects'>
       <h1 className='projectHeaderText'>Projects</h1>
-      <p className='projectHeaderInfo'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quis laboriosam officiis obcaecati minus harum ducimus reprehenderit animi enim alias? Quam quaerat dicta consequatur sequi.</p>
+      <p className='projectHeaderInfo'>The following web projects are some of my projects that can show how much I evolved, how much I understand about each technology, and at last, how much I can bring to a team of developers alongside me.</p>
 
 
       <div className="right-image-projects">
@@ -23,11 +23,11 @@ const Projects = () => {
             </div>
             <div className="projectLinkDiv">
               <a href="https://github.com/layuntaFelipe/ChefsEye-Software" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
-              <FaLink className='pojectLinkIcons' />
+              <a href="http://sws.lethbridgecollege.ca/~s0533907/restaurant/" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaLink className='pojectLinkIcons' /></a>
             </div>
           </div>
           <div className="projectInfo">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugiat sed architecto sint at doloremque aperiam necessitatibus delectus hic consectetur asperiores, doloribus sit accusantium! Distinctio dolorum deleniti fuga ex. Repudiandae.</p>
+            <p>Chef's Eye Website was one of my first big projects working as a Web Developer. Although it is not a complex website due to be only the frontend part of it. It shows a good amount of HTML, CSS, and eventhough it doenst't have a lot of javascript, it has enough for make the frontend of the app look appealing for a customer.</p>
             <div className="skillsUsed">
               <FaCss3Alt className='projectIconUsed' color='#379AD6' />
               <FaHtml5 className='projectIconUsed' color='#E44D26' />
@@ -45,14 +45,14 @@ const Projects = () => {
           <div className="projectHeader">
             <div className="projectLinkDiv">
               <a href="https://github.com/layuntaFelipe/crypto-nummum" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
-              <FaLink className='pojectLinkIcons'/>
+              <a href="https://crypto-nummum.vercel.app/" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaLink className='pojectLinkIcons' /></a>
             </div>
             <div className="projectTitle">
               Crypto Nummum
             </div>
           </div>
           <div className="projectInfo">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugiat sed architecto sint at doloremque aperiam necessitatibus delectus hic consectetur asperiores, doloribus sit accusantium! Distinctio dolorum deleniti fuga ex. Repudiandae.</p>
+            <p>Crypto Nummum is a .</p>
             <div className="skillsUsed">
               <FaCss3Alt className='projectIconUsed' color='#379AD6' />
               <FaHtml5 className='projectIconUsed' color='#E44D26' />
