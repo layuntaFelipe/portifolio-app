@@ -32,9 +32,9 @@ const Contact = () => {
       <hr className='divider' />
       <h2 className='socialContactHeading'>I am social</h2>
       <div className="socialContactIcons">
-        <a href="https://github.com/layuntaFelipe/house-market-app" rel='noreferrer' target='_blank'><FaLinkedin className='socialContactIcon'/></a>
-        <a href="https://github.com/layuntaFelipe/house-market-app" rel='noreferrer' target='_blank'><FaInstagram className='socialContactIcon'/></a>
-        <a href="https://github.com/layuntaFelipe/house-market-app" rel='noreferrer' target='_blank'><FaGithub className='socialContactIcon'/></a>
+        <a href="https://www.linkedin.com/in/felipe-la-yunta-1109221b5/" rel='noreferrer' target='_blank'><FaLinkedin className='socialContactIcon'/></a>
+        <a href="https://www.instagram.com/felipelly/" rel='noreferrer' target='_blank'><FaInstagram className='socialContactIcon'/></a>
+        <a href="https://github.com/layuntaFelipe" rel='noreferrer' target='_blank'><FaGithub className='socialContactIcon'/></a>
       </div>
       <p className='spanSurprice'>if you got to here, there is a surprise for you</p>
       <h6 className='hoverSurprice'>{`Hover over the background below to see it ;)`}</h6>

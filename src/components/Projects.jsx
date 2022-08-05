@@ -48,11 +48,11 @@ const Projects = () => {
               <a href="https://crypto-nummum.vercel.app/" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaLink className='pojectLinkIcons' /></a>
             </div>
             <div className="projectTitle">
-              Crypto Nummum
+              Crypto Nummum API
             </div>
           </div>
           <div className="projectInfo">
-            <p>Crypto Nummum is a .</p>
+            <p>Crypto Nummum is a frontend application built on react with the main goal of connecting with the COINGECKO API. This simple crypto app works with an real time api and allows users to check about individual cryptos and get more info about them</p>
             <div className="skillsUsed">
               <FaCss3Alt className='projectIconUsed' color='#379AD6' />
               <FaHtml5 className='projectIconUsed' color='#E44D26' />
@@ -78,7 +78,8 @@ const Projects = () => {
             </div>
           </div>
           <div className="projectInfo">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugiat sed architecto sint at doloremque aperiam necessitatibus delectus hic consectetur asperiores, doloribus sit accusantium! Distinctio dolorum deleniti fuga ex. Repudiandae.</p>
+            <p>House Market Web is a React app mainly focused with the <span style={{color:'#0f0'}}>Firebase functionality</span> and design for mobile first. House Market consist in a simple context of a customer when logged in, can check out houses for sale and rent in the database, and it can also create a house for sale and rent.</p>
+            <p>This project was great for me to learn more about how to talk to an <span style={{color:'#0f0'}}>API</span>, work with <span style={{color:'#0f0'}}>Firebase Storage and Authentication</span>, <span style={{color:'#0f0'}}>Routers</span>, and <span style={{color:'#0f0'}}>Maps</span>.</p>
             <div className="skillsUsed">
               <FaCss3Alt className='projectIconUsed' color='#379AD6' />
               <FaHtml5 className='projectIconUsed' color='#E44D26' />
@@ -98,14 +99,16 @@ const Projects = () => {
           <div className="projectHeader">
             <div className="projectLinkDiv">
               <a href="https://github.com/layuntaFelipe/support-desk" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
-              <FaLink className='pojectLinkIcons'/>
+              <a href="https://supportdeskappleapp.herokuapp.com/" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaLink className='pojectLinkIcons'/></a>
             </div>
             <div className="projectTitle">
-              Apple Tech Support
+              Apple Support Desk
             </div>
           </div>
           <div className="projectInfo">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugiat sed architecto sint at doloremque aperiam necessitatibus delectus hic consectetur asperiores, doloribus sit accusantium! Distinctio dolorum deleniti fuga ex. Repudiandae.</p>
+            <p>Apple Support Desk is a React app mainly <span style={{color:'#0f0'}}>focused on the backend</span> side of a project. It consist in simple actions of a customer can register and login in my mongoDB database, then it can create a ticket informing which devices is not working correctly, and describe what is the problem.</p>
+            <p>The user can check out his ticket and send messages to the staff about the ticket aswell, and once the problem is solved, the user can close the ticket.</p>
+            <p>This project was great for me to learn more about <span style={{color:'#0f0'}}>NodeJS</span>, <span style={{color:'#0f0'}}>MongoDB</span>, <span style={{color:'#0f0'}}>Express</span>, buiilding a <span style={{color:'#0f0'}}>backend</span>, and work with libraries I've never worked with, like <span style={{color:'#0f0'}}>BCrypt</span>, and <span style={{color:'#0f0'}}>Jsonwebtoken</span>.</p>
             <div className="skillsUsed">
               <FaCss3Alt className='projectIconUsed' color='#379AD6' />
               <FaHtml5 className='projectIconUsed' color='#E44D26' />

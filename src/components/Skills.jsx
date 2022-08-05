@@ -9,7 +9,7 @@ const Skills = () => {
   return (
     <div className='skillsContainer' id='skills'>
       <h1>Technical Skills</h1>
-      <p className='projectHeaderInfo'>Along the 3 years of programming I can say that I have the following technical skills of understanding the these frameworks and programming languages.</p>
+      <p className='projectHeaderInfo' style={{paddingLeft: '2rem', paddingRight: '2rem'}}>Along the 3 years of programming I can say that I have the following technical skills of understanding the these frameworks and programming languages.</p>
       <div className="flex-container">
         <div className="skillsIconContainer">
           <FaCss3Alt className='icons-skills' color='#379AD6' />
@@ -55,7 +55,7 @@ const Skills = () => {
       </div>
       <hr />
       <h1>Soft Skills</h1>
-      <p className='projectHeaderInfo'>Also in these 3 years of programming I have aquired the following soft skills by working alongside other programmers.</p>
+      <p className='projectHeaderInfo' style={{paddingLeft: '2rem', paddingRight: '2rem'}}>Also in these 3 years of programming I have aquired the following soft skills by working alongside other programmers.</p>
       <div className="flex-container">
         <div className="skillsIconContainer" style={{width: '7rem'}}>
           <GoTools className='icons-skills' color='#0f0' />
