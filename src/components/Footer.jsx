@@ -4,7 +4,7 @@ import felipeName from '../assets/felipeName.svg';
 
 const Footer = () => {
   return (
-    <div style={{backgroundColor: '#222', paddingInline: '0.7rem', paddingBottom: '0.7rem', marginTop: '6rem'}}>
+    <div style={{backgroundColor: '#222', paddingInline: '0.7rem', paddingBottom: '7rem', marginTop: '6rem'}}>
       <div style={{display: 'flex', alignItems: 'center', gap: '1rem'}}>
         <img src={felipeName} alt="" style={{width: '6rem'}} />
         <span style={{color: 'aliceblue', fontSize: '1rem'}}>&copy; FelipeLaYuntaDev. All rights reserved.</span>

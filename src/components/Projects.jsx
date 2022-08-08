@@ -15,7 +15,9 @@ const Projects = () => {
 
 
       <div className="right-image-projects">
-        <img className='projectImage' src={chefsWebImage} alt="" />
+        <a href="http://sws.lethbridgecollege.ca/~s0533907/restaurant/" rel='noreferrer' target='_blank'>
+          <img className='projectImage' src={chefsWebImage} alt="" />
+        </a>
         <div className="projectSingleContainer">
           <div className="projectHeader">
             <div className="projectTitle">
@@ -40,7 +42,9 @@ const Projects = () => {
       </div>
 
       <div className="left-image-projects">
-        <img className='projectImage' src={cryptoWeb} alt="" />
+        <a href="https://crypto-nummum.vercel.app/" rel='noreferrer' target='_blank'>
+          <img className='projectImage' src={cryptoWeb} alt="" />
+        </a>
         <div className="projectSingleContainer">
           <div className="projectHeader">
             <div className="projectLinkDiv">
@@ -66,7 +70,9 @@ const Projects = () => {
       </div>
 
       <div className="right-image-projects">
-        <img className='projectImage' src={houseMarketWeb} alt="" />
+        <a href="https://house-market-app-plum.vercel.app/" rel='noreferrer' target='_blank'>
+          <img className='projectImage' src={houseMarketWeb} alt="" />
+        </a>
         <div className="projectSingleContainer">
           <div className="projectHeader">
             <div className="projectTitle">
@@ -94,7 +100,9 @@ const Projects = () => {
       </div>
 
       <div className="left-image-projects">
-        <img className='projectImage' src={appleSupportDesk} alt="" />
+        <a href="https://supportdeskappleapp.herokuapp.com/" rel='noreferrer' target='_blank'>
+          <img className='projectImage' src={appleSupportDesk} alt="" />
+        </a>
         <div className="projectSingleContainer">
           <div className="projectHeader">
             <div className="projectLinkDiv">
