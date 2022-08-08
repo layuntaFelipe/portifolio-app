@@ -19,7 +19,7 @@ const Contact = () => {
   return (
     <div id='contact'>
       <h1 className='projectHeaderText'>Contact Me</h1>
-      <p className='projectHeaderInfo'>It would be a honor for me to answer your questions!</p>
+      <p className='projectHeaderInfo'>It would be an honor for me to answer your questions!</p>
       <hr className='divider' style={{width: '30%'}} />
       <form className='form-container'>
         <input type="text" name="name" id="name" placeholder='Name' className='form-group' value={name} onChange={onChange} />
@@ -36,7 +36,7 @@ const Contact = () => {
         <a href="https://www.instagram.com/felipelly/" rel='noreferrer' target='_blank'><FaInstagram className='socialContactIcon'/></a>
         <a href="https://github.com/layuntaFelipe" rel='noreferrer' target='_blank'><FaGithub className='socialContactIcon'/></a>
       </div>
-      <p className='spanSurprice'>if you got to here, there is a surprise for you</p>
+      <p className='spanSurprice'>If you got here, there is a surprise for you</p>
       <h6 className='hoverSurprice'>{`Hover over the background below to see it ;)`}</h6>
     </div>
   )
