@@ -528,6 +528,18 @@
   padding: 0 2rem;
 }
 
+.footerLinks {
+  color:aliceblue;
+  font-size: 1rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footerLinks:hover {
+  color: #0f0;
+}
+.footerLinks-mobile {
+  display: none !important;
+}
 
 
 
@@ -680,5 +692,17 @@
   }
   .form-btn {
     width: 80%;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .footerLinks-mobile {
+    display: block !important;
+  }
+  .footerLinks-mobile .footerLinks {
+    margin-right: 1rem;
+  }
+  .footerLinks-full {
+    display: none !important;
   }
 }
