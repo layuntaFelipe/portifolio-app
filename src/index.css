@@ -41,6 +41,46 @@
 
 /* NAVBAR */
 /* NAVBAR */
+.navbar-mobile {
+  display: none;
+  background-color: aliceblue;
+  width: 40vh;
+  height: 100vh;
+  text-align: center;
+  position: fixed;
+  padding-top: 5rem;
+  /* margin-left: 54%; */
+  right: 0;
+  background-color: #222222;
+  z-index: 99;
+}
+.navbar-mobile .mobile-linkPage {
+  list-style: none;
+  padding-top: 2rem;
+}
+.navbar-mobile .mobile-linkPage li {
+  color: rgba(255, 255, 255, 0.545);
+  height: 2rem;
+  width: 12rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.6rem 1rem 0.3rem;
+  border: 2px solid #252525;
+  border-radius: 10px;
+  margin: 1rem auto;
+}
+.navbar-mobile .mobile-linkPage li:hover {
+  color: #0f0;
+  border: 2px solid #0f0;
+  text-shadow: 0 0 120px #0f0;
+  transform: scale(105%);
+}
+.mobileSocials {
+  justify-content: center;
+}
+.mobileSocials li {
+  padding-inline: 1rem;
+}
 .navbarHead {
   position: fixed;
   width: 100%;
@@ -367,6 +407,16 @@
   text-shadow: 0 0 20px #0f0;
   transform: scale(105%);
 }
+.moreDetailLink {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: rgba(0, 255, 0, 0.572);
+}
+.moreDetailLink:hover {
+  color: #0f0;
+  text-shadow: 0 0 5px #0f0;
+  transform: scale(105%);
+}
 
 .projectTitle {
   font-size: 2rem;
@@ -531,7 +581,13 @@
   .navbar .navbarItems {
     display: none;
   }
+  .navbar {
+    padding: 0 0.7rem;
+  }
   .hamburger {
+    display: block;
+  }
+  .navbar-mobile {
     display: block;
   }
 }
@@ -540,8 +596,89 @@
   .heroContainer {
     padding-left: 0;
     padding-right: 0;
+    margin-top: 7rem;
+    margin-left: 0;
+    margin-right: 0;
   }
   .heroContainer .heroImage {
     width: 70%;
+  }
+  .heroInfo h1 {
+    font-size: 2.4rem;
+  }
+  .heroInfo {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+  }
+  .heroInfo p {
+    font-size: 1.1rem;
+  }
+
+  .skillsContainer {
+    padding-top: 0;
+  }
+  .flex-container {
+    width: 100%;
+    padding: 0;
+  }
+  .skillsIconContainer {
+    margin: 0.5rem;
+    padding: 0.7rem 0.5rem;
+    width: 3rem;
+    border-radius: 10px;
+  }
+  .skillsIconContainer h5 {
+    color: rgba(255, 255, 255, 0.545);
+    font-weight: 400;
+    font-size: 0.6rem;
+  }
+  .skillsContainer hr {
+    margin: 1.5rem 0;
+  }
+  .icons-skills {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .projectSingleContainer {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+  }
+  .projectHeaderInfo p {
+    font-size: 1.1rem;
+  }
+  .projectInfo p {
+    font-size: 1.1rem;
+  }
+
+  .projectHeaderInfo {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+  }
+  .projectImage{
+    width: 90% !important;
+  }
+  .projectLinkDiv a {
+    display: block;
+    margin: 0.3rem 0;
+  }
+  .projectLinkDiv {
+    margin-bottom: 1rem;
+  }
+  .projectTitle {
+    font-size: 1.8rem;
+  }
+  .left-image-projects .projectSingleContainer {
+    text-align: left;
+  }
+
+  .form-container input {
+    width: 80%;
+  }
+  .form-container textarea{
+    width: 80%;
+  }
+  .form-btn {
+    width: 80%;
   }
 }

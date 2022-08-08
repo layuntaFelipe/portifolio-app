@@ -34,7 +34,7 @@ const Projects = () => {
               <SiJavascript className='projectIconUsed' color='#F7E017'/>
               <FaGit className='projectIconUsed' color='#F05133' />
             </div>
-            <a className='projectMoreInfo' href="">Dive in for more</a>
+            <a className='moreDetailLink' href="https://github.com/layuntaFelipe/ChefsEye-Software">Go to Github for more detail</a>
           </div>
         </div>
       </div>
@@ -60,7 +60,7 @@ const Projects = () => {
               <FaReact className='projectIconUsed' color='#60DBFB' />
               <FaGit className='projectIconUsed' color='#F05133' />
             </div>
-            <a className='projectMoreInfo' href="">Dive in for more</a>
+            <a className='moreDetailLink' href="https://github.com/layuntaFelipe/crypto-nummum">Go to Github for more detail</a>
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@ const Projects = () => {
               <SiFirebase className='projectIconUsed' color='#FFCB2D' />
               <FaGit className='projectIconUsed' color='#F05133' />
             </div>
-            <a className='projectMoreInfo' href="">Dive in for more</a>
+            <a className='moreDetailLink' href="https://github.com/layuntaFelipe/house-market-app">Go to Github for more detail</a>
           </div>
         </div>
       </div>
@@ -119,7 +119,7 @@ const Projects = () => {
               <SiExpress className='projectIconUsed' color='#009F38' />
               <FaGit className='projectIconUsed' color='#F05133' />
             </div>
-            <a className='projectMoreInfo' href="">Dive in for more</a>
+            <a className='moreDetailLink' href="https://github.com/layuntaFelipe/support-desk">Go to Github for more detail</a>
           </div>
         </div>
       </div>
@@ -148,7 +148,7 @@ const Projects = () => {
               <SiExpress className='projectIconUsed' color='#009F38' />
               <FaGit className='projectIconUsed' color='#F05133' />
             </div>
-            <a className='projectMoreInfo' href="">Dive in for more</a>
+            <a className='moreDetailLink' href="https://github.com/layuntaFelipe/ChefsEye-Software">Go to Github for more detail</a>
           </div>
         </div>
       </div>
