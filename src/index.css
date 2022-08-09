@@ -6,6 +6,10 @@
   font-family: 'Source Code Pro', sans-serif;
 }
 
+body {
+  zoom: 90%;
+}
+
 #wrapper {
   position: relative;
   width: 100%;
