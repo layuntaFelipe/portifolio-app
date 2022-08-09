@@ -5,7 +5,7 @@ import houseMarketWeb from '../assets/houseMarketWeb.png';
 import appleSupportDesk from '../assets/appleSupportDesk.png';
 import chefsEyeSoftware from '../assets/chefsEyeSoftware.png';
 import {FaGithub, FaLink, FaCss3Alt, FaHtml5, FaGit, FaReact, FaNodeJs} from 'react-icons/fa';
-import {SiJavascript, SiFirebase, SiExpress, SiMongodb} from 'react-icons/si'
+import {SiJavascript, SiFirebase, SiExpress, SiMongodb, SiRedux} from 'react-icons/si'
 
 const Projects = () => {
   return (
@@ -116,12 +116,13 @@ const Projects = () => {
           <div className="projectInfo">
             <p>Apple Support Desk is a React app mainly <span style={{color:'#0f0'}}>focused on the backend</span> side of a project. It consists of simple actions of a customer can register and login into my MongoDB database, then it can create a ticket informing which devices are not working correctly, and describe what is the problem.</p>
             <p>The user can check out his ticket and send messages to the staff about the ticket as well, and once the problem is solved, the user can close the ticket.</p>
-            <p>This project was great for me to learn more about <span style={{color:'#0f0'}}>NodeJS</span>, <span style={{color:'#0f0'}}>MongoDB</span>, <span style={{color:'#0f0'}}>Express</span>, buiilding a <span style={{color:'#0f0'}}>backend</span>, and work with libraries I've never worked with, like <span style={{color:'#0f0'}}>BCrypt</span>, and <span style={{color:'#0f0'}}>Jsonwebtoken</span>.</p>
+            <p>This project was great for me to learn more about <span style={{color:'#0f0'}}>NodeJS</span>, <span style={{color:'#0f0'}}>MongoDB</span>, <span style={{color:'#0f0'}}>Express</span>, and <span style={{color:'#0f0'}}>Redux</span>, building a <span style={{color:'#0f0'}}>backend</span>, and work with libraries I've never worked with, like <span style={{color:'#0f0'}}>BCrypt</span>, and <span style={{color:'#0f0'}}>Jsonwebtoken</span>.</p>
             <div className="skillsUsed">
               <FaCss3Alt className='projectIconUsed' color='#379AD6' />
               <FaHtml5 className='projectIconUsed' color='#E44D26' />
               <SiJavascript className='projectIconUsed' color='#F7E017'/>
               <FaReact className='projectIconUsed' color='#60DBFB' />
+              <SiRedux className='projectIconUsed' color='purple' />
               <FaNodeJs className='projectIconUsed' color='#90C53F' />
               <SiMongodb className='projectIconUsed' color='#51AB4C' />
               <SiExpress className='projectIconUsed' color='#009F38' />
@@ -155,6 +156,7 @@ const Projects = () => {
               <FaHtml5 className='projectIconUsed' color='#E44D26' />
               <SiJavascript className='projectIconUsed' color='#F7E017'/>
               <FaReact className='projectIconUsed' color='#60DBFB' />
+              <SiRedux className='projectIconUsed' color='purple' />
               <FaNodeJs className='projectIconUsed' color='#90C53F' />
               <SiMongodb className='projectIconUsed' color='#51AB4C' />
               <SiExpress className='projectIconUsed' color='#009F38' />
