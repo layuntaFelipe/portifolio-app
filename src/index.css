@@ -59,10 +59,12 @@ body {
   background-color: #222222;
   z-index: 99;
 }
+
 .navbar-mobile .mobile-linkPage {
   list-style: none;
   padding-top: 2rem;
 }
+
 .navbar-mobile .mobile-linkPage li {
   color: rgba(255, 255, 255, 0.545);
   height: 2rem;
@@ -74,18 +76,22 @@ body {
   border-radius: 10px;
   margin: 1rem auto;
 }
+
 .navbar-mobile .mobile-linkPage li:hover {
   color: #0f0;
   border: 2px solid #0f0;
   text-shadow: 0 0 120px #0f0;
   transform: scale(105%);
 }
+
 .mobileSocials {
   justify-content: center;
 }
+
 .mobileSocials li {
   padding-inline: 1rem;
 }
+
 .navbarHead {
   position: fixed;
   width: 100%;
@@ -265,8 +271,8 @@ body {
   padding: 0.5rem 1rem;
   border: 2px solid #0f0;
   border-radius: 10px;
-  text-shadow: 0 0 120px #0f0;
 }
+
 .downloadCV:hover {
   color: #252525;
   background-color: #0f0;
@@ -435,11 +441,13 @@ body {
   text-shadow: 0 0 20px #0f0;
   transform: scale(105%);
 }
+
 .moreDetailLink {
   text-decoration: none;
   font-size: 1.3rem;
   color: rgba(0, 255, 0, 0.572);
 }
+
 .moreDetailLink:hover {
   color: #0f0;
   text-shadow: 0 0 5px #0f0;
@@ -557,14 +565,16 @@ body {
 }
 
 .footerLinks {
-  color:aliceblue;
+  color: aliceblue;
   font-size: 1rem;
   text-decoration: underline;
   cursor: pointer;
 }
+
 .footerLinks:hover {
   color: #0f0;
 }
+
 .footerLinks-mobile {
   display: none !important;
 }
@@ -579,7 +589,7 @@ body {
   z-index: -100;
   background-color: #222222;
   transform: scale(110%) translateX(1%);
-  
+
 }
 
 
@@ -588,9 +598,9 @@ body {
 @media only screen and (max-width: 1250px) {
   .heroContainer .heroImage {
     float: none;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .projectHeaderInfo {
@@ -601,17 +611,18 @@ body {
 @media only screen and (max-width: 1150px) {
   .left-image-projects .projectImage {
     float: none;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 70%;
     margin-bottom: 2rem;
   }
+
   .right-image-projects .projectImage {
     float: none;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 70%;
     margin-bottom: 2rem;
   }
@@ -621,12 +632,15 @@ body {
   .navbar .navbarItems {
     display: none;
   }
+
   .navbar {
     padding: 0 0.7rem;
   }
+
   .hamburger {
     display: block;
   }
+
   .navbar-mobile {
     display: block;
   }
@@ -640,16 +654,20 @@ body {
     margin-left: 0;
     margin-right: 0;
   }
+
   .heroContainer .heroImage {
     width: 70%;
   }
+
   .heroInfo h1 {
     font-size: 2.4rem;
   }
+
   .heroInfo {
     margin-left: 0.7rem;
     margin-right: 0.7rem;
   }
+
   .heroInfo p {
     font-size: 1.1rem;
   }
@@ -657,24 +675,29 @@ body {
   .skillsContainer {
     padding-top: 0;
   }
+
   .flex-container {
     width: 100%;
     padding: 0;
   }
+
   .skillsIconContainer {
     margin: 0.5rem;
     padding: 0.7rem 0.5rem;
     width: 3rem;
     border-radius: 10px;
   }
+
   .skillsIconContainer h5 {
     color: rgba(255, 255, 255, 0.545);
     font-weight: 400;
     font-size: 0.6rem;
   }
+
   .skillsContainer hr {
     margin: 1.5rem 0;
   }
+
   .icons-skills {
     width: 2rem;
     height: 2rem;
@@ -684,9 +707,11 @@ body {
     margin-left: 0.7rem;
     margin-right: 0.7rem;
   }
+
   .projectHeaderInfo p {
     font-size: 1.1rem;
   }
+
   .projectInfo p {
     font-size: 1.1rem;
   }
@@ -695,19 +720,24 @@ body {
     margin-left: 0.7rem;
     margin-right: 0.7rem;
   }
-  .projectImage{
+
+  .projectImage {
     width: 90% !important;
   }
+
   .projectLinkDiv a {
     display: block;
     margin: 0.3rem 0;
   }
+
   .projectLinkDiv {
     margin-bottom: 1rem;
   }
+
   .projectTitle {
     font-size: 1.8rem;
   }
+
   .left-image-projects .projectSingleContainer {
     text-align: left;
   }
@@ -715,9 +745,11 @@ body {
   .form-container input {
     width: 80%;
   }
-  .form-container textarea{
+
+  .form-container textarea {
     width: 80%;
   }
+
   .form-btn {
     width: 80%;
   }
@@ -727,9 +759,11 @@ body {
   .footerLinks-mobile {
     display: block !important;
   }
+
   .footerLinks-mobile .footerLinks {
     margin-right: 1rem;
   }
+
   .footerLinks-full {
     display: none !important;
   }
