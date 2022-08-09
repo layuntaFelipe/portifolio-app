@@ -14,7 +14,7 @@ function App() {
   const [iconsNumber, setIconsNumber] = useState([]);
 
   useEffect(() => {
-    const newState = buildRandomIcons();
+    const newState = buildRandomIcons((document.documentElement.clientWidth - 60));
     setIconsNumber((prevState) => [...prevState, newState]);
     console.log(document.documentElement.clientWidth);
   }, []);
