@@ -150,7 +150,8 @@ const Projects = () => {
             <div style={{fontSize: '0.9rem', backgroundColor: '#0f9', padding: '0.5rem 1rem', height: '1.2rem', borderRadius: '10px', color: 'black', width: '10rem', textAlign: 'center', marginTop: '-0.7rem', marginBottom: '1rem'}}>Due by end of year</div>
           </div>
           <div className="projectInfo">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugiat sed architecto sint at doloremque aperiam necessitatibus delectus hic consectetur asperiores, doloribus sit accusantium! Distinctio dolorum deleniti fuga ex. Repudiandae.</p>
+            <p>ChefsEye is the main project I'm working on right now, and also one of the most complex apps I'm building. With a complete backend, with complex database relations, and a responsive, simple, and clean frontend so the user can focus on what is important about the software with ease.</p>
+            <p>ChefsEye is an internet software focused on restaurant management. It completely changes the way customers, employees, managers, and owners interact with a restaurant, making their jobs easier to be done and managed, and overall making more profit.</p>
             <div className="skillsUsed">
               <FaCss3Alt className='projectIconUsed' color='#379AD6' />
               <FaHtml5 className='projectIconUsed' color='#E44D26' />
