@@ -16,11 +16,12 @@ function App() {
   useEffect(() => {
     const newState = buildRandomIcons();
     setIconsNumber((prevState) => [...prevState, newState]);
+    console.log(document.documentElement.clientWidth);
   }, []);
 
-  const buildRandomIcons = () => {
+  const buildRandomIcons = (number = 2200) => {
     let newIcons = [];
-    for (let i = 0; i < 2200; i++) {
+    for (let i = 0; i < number; i++) {
       newIcons.push(iconsList[Math.floor(Math.random() * 6)])
     }
     return [newIcons];
