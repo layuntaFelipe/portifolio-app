@@ -219,6 +219,7 @@ body {
   padding-top: 3rem;
   color: rgba(255, 255, 255, 0.545);
   overflow: auto;
+  padding-bottom: 1rem;
 }
 
 .heroInfo h1 {
@@ -253,6 +254,28 @@ body {
   color: #0f0;
   text-shadow: 0 0 20px #0f0;
   transform: scale(105%);
+}
+
+.downloadCV {
+  color: #0f0;
+  height: 1.5rem;
+  margin: 0 0.8rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 2px solid #0f0;
+  border-radius: 10px;
+  text-shadow: 0 0 120px #0f0;
+}
+.downloadCV:hover {
+  color: #252525;
+  background-color: #0f0;
+  height: 1.5rem;
+  margin: 0 0.8rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
 }
 
 
