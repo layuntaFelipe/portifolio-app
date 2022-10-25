@@ -15,7 +15,7 @@ const Projects = () => {
 
 
       <div className="right-image-projects">
-        <a href="http://sws.lethbridgecollege.ca/~s0533907/restaurant/" rel='noreferrer' target='_blank'>
+        <a href="https://friendly-raindrop-2948db.netlify.app/" rel='noreferrer' target='_blank'>
           <img className='projectImage' src={chefsWebImage} alt="" />
         </a>
         <div className="projectSingleContainer">
@@ -25,7 +25,7 @@ const Projects = () => {
             </div>
             <div className="projectLinkDiv">
               <a href="https://github.com/layuntaFelipe/chefsEyeWeb" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
-              <a href="http://sws.lethbridgecollege.ca/~s0533907/restaurant/" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaLink className='pojectLinkIcons' /></a>
+              <a href="https://friendly-raindrop-2948db.netlify.app/" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaLink className='pojectLinkIcons' /></a>
             </div>
           </div>
           <div className="projectInfo">
