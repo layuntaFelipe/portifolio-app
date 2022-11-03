@@ -1,7 +1,7 @@
 import React from 'react';
 import heroIMG from '../assets/felipeHeroPhoto.svg';
 import { Link } from 'react-scroll';
-import pdfCV from '../assets/pdf/Web-Dev-Felipe.pdf';
+import pdfCV from '../assets/pdf/Resume-Felipe-Final (2).pdf';
 
 const Hero = () => {
   return (
