@@ -1,6 +1,6 @@
 import React from 'react';
 import {FaCss3Alt, FaHtml5, FaReact, FaSwift, FaGit, FaGithub, FaNodeJs, FaAssistiveListeningSystems} from 'react-icons/fa';
-import {SiJavascript, SiExpress, SiFirebase, SiMongodb, SiMysql, SiMinds} from 'react-icons/si';
+import {SiJavascript, SiExpress, SiFirebase, SiMongodb, SiMysql, SiMinds, SiPhp, SiApache} from 'react-icons/si';
 import {RiTeamFill} from 'react-icons/ri';
 import {GiWalkieTalkie} from 'react-icons/gi'
 import {GoTools} from 'react-icons/go';
@@ -43,6 +43,14 @@ const Skills = () => {
         <div className="skillsIconContainer">
           <SiMysql className='icons-skills' color='#026190' />
           <h5>MySQL</h5>
+        </div>
+        <div className="skillsIconContainer">
+          <SiPhp className='icons-skills' color='purple' />
+          <h5>PHP</h5>
+        </div>
+        <div className="skillsIconContainer">
+          <SiApache className='icons-skills' color='orange' />
+          <h5>Apache</h5>
         </div>
         <div className="skillsIconContainer">
           <FaGit className='icons-skills' color='#F05133' />
