@@ -141,7 +141,7 @@ const Projects = () => {
               Chef's Eye Software
             </div>
             <div className="projectLinkDiv">
-              <a href="https://github.com/layuntaFelipe/ChefsEye-Software" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
+              <a href="https://github.com/layuntaFelipe/chefsEyeSoft" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
               <FaLink className='pojectLinkIcons' />
             </div>
           </div>
