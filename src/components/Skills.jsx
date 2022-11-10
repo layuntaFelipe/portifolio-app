@@ -25,7 +25,7 @@ const Skills = () => {
           <FaSwift className='icons-skills' color='#F05237' />
           <h5>Swift</h5>
         </div><div className="skillsIconContainer">
-          <FaPython className='icons-skills' color='#F05237' />
+          <FaPython className='icons-skills' color='#009F38' />
           <h5>Python</h5>
         </div><div className="skillsIconContainer">
           <FaReact className='icons-skills' color='#60DBFB' />
