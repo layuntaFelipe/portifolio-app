@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaCss3Alt, FaHtml5, FaReact, FaSwift, FaGit, FaGithub, FaNodeJs, FaAssistiveListeningSystems} from 'react-icons/fa';
+import {FaCss3Alt, FaPython, FaHtml5, FaReact, FaSwift, FaGit, FaGithub, FaNodeJs, FaAssistiveListeningSystems} from 'react-icons/fa';
 import {SiJavascript, SiExpress, SiFirebase, SiMongodb, SiMysql, SiMinds, SiPhp, SiApache} from 'react-icons/si';
 import {RiTeamFill} from 'react-icons/ri';
 import {GiWalkieTalkie} from 'react-icons/gi'
@@ -24,6 +24,9 @@ const Skills = () => {
         </div><div className="skillsIconContainer">
           <FaSwift className='icons-skills' color='#F05237' />
           <h5>Swift</h5>
+        </div><div className="skillsIconContainer">
+          <FaPython className='icons-skills' color='#F05237' />
+          <h5>Python</h5>
         </div><div className="skillsIconContainer">
           <FaReact className='icons-skills' color='#60DBFB' />
           <h5>ReactJS</h5>
