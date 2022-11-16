@@ -59,10 +59,6 @@ const Skills = () => {
           <FaGit className='icons-skills' color='#F05133' />
           <h5>GIT</h5>
         </div>
-        <div className="skillsIconContainer">
-          <FaGithub className='icons-skills' color='#ffffff' />
-          <h5>GitHub</h5>
-        </div>
       </div>
       <hr />
       <h1>Soft Skills</h1>
