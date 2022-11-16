@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaCss3Alt, FaPython, FaHtml5, FaReact, FaSwift, FaGit, FaGithub, FaNodeJs, FaAssistiveListeningSystems} from 'react-icons/fa';
+import {FaCss3Alt, FaPython, FaHtml5, FaReact, FaSwift, FaGit, FaNodeJs, FaAssistiveListeningSystems} from 'react-icons/fa';
 import {SiJavascript, SiExpress, SiFirebase, SiMongodb, SiMysql, SiMinds, SiPhp, SiApache} from 'react-icons/si';
 import {RiTeamFill} from 'react-icons/ri';
 import {GiWalkieTalkie} from 'react-icons/gi'
