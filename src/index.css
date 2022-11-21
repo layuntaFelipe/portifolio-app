@@ -213,6 +213,11 @@ body {
   background-color: rgba(0, 255, 0, 0.294);
   border-radius: 90% 90% 90% 10%;
   margin: 0 0 0 4rem;
+  transition: 1s;
+}
+.heroImage:hover{
+  scale: 110%;
+  transition: 1s;
 }
 
 .heroNameImage {
