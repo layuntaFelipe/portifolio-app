@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import MoreAboutMe from './components/MoreAboutMe';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Accolades from './components/Accolades';
 
 function App() {
   const iconsList = [<FaCode className='icon' />, <FaCss3Alt className='icon' />, <FaHtml5 className='icon' />, <FaReact className='icon' />, <SiJavascript className='icon' />, <FaDatabase className='icon' />];
@@ -34,16 +35,10 @@ function App() {
         <Hero />
         <Skills />
         <Projects />
+        <Accolades/>
         <MoreAboutMe />
         <Contact />
         <Footer />
-      </div>
-      <div className="background">
-        {iconsNumber.map((icon, index) => (
-          <div key={index}>
-            {icon}
-          </div>
-        ))}
       </div>
     </div>
   );

@@ -25,8 +25,8 @@ const Navbar = () => {
           <div className="navbarItems">
             <ul className='navbarLinksPage'>
               <Link to='hero' spy={true} smooth={true} offset={-100} duration={500}><li>Home</li></Link>
-              <Link to='skills' spy={true} smooth={true} offset={-40} duration={500}><li>Skills</li></Link>
-              <Link to='projects' spy={true} smooth={true} offset={-30} duration={500}><li>Projects</li></Link>
+              <Link to='skills' spy={true} smooth={true} offset={-100} duration={500}><li>Skills</li></Link>
+              <Link to='projects' spy={true} smooth={true} offset={-300} duration={500}><li>Projects</li></Link>
             </ul>
             <div className="socialsDiv">
               <ul className='navbarSocialLinks'>
@@ -35,7 +35,7 @@ const Navbar = () => {
                 <li><a href="https://www.instagram.com/felipelly/" rel='noreferrer' target='_blank' style={{color: 'rgba(255, 255, 255, 0.545)'}}><FaInstagram className='socialIcons'/></a></li>
               </ul>
             </div>
-            <Link id='contactNavBtn' to='contact' spy={true} smooth={true} offset={-100} duration={500}><button className='btnPrimary'>Contact Me</button></Link>
+            <Link id='contactNavBtn' to='contact' spy={true} smooth={true} offset={-700} duration={500}><button className='btnPrimary'>Contact Me</button></Link>
           </div>
         </div>
       </div>

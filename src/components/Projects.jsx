@@ -15,9 +15,7 @@ const Projects = () => {
 
 
       <div className="right-image-projects">
-        <a href="https://friendly-raindrop-2948db.netlify.app/" rel='noreferrer' target='_blank'>
-          <img className='projectImage' src={chefsWebImage} alt="" />
-        </a>
+        <img className='projectImage' src={chefsWebImage} alt="" />
         <div className="projectSingleContainer">
           <div className="projectHeader">
             <div className="projectTitle">
