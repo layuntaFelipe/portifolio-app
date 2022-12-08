@@ -6,7 +6,7 @@ import pdfCV from '../assets/pdf/Resume-Felipe-Final (2).pdf';
 const Hero = () => {
   let title = "I'm Felipe, Junior Full Stack Developer";
   let paragraph = "A passionate Full Stack Developer with 2+ years of programming experience (Mobile Development + Web Development). As a Full Stack Web Developer, I bring to the table experience of building a real-world application using ReactJS, Javascript, NodeJS, Express, Firebase, MongoDB, and other cool and fun libraries that makes me ready to help in any way possible with the technologies I already know and with those that I don't know yet.";
-  let mission = "To learn and work as much as I can to become a reference in software engineering.";
+  let mission = "To learn and work as much as I can to become an icon in software engineering.";
 
 
   return (

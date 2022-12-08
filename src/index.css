@@ -483,6 +483,48 @@ body {
 }
 
 
+/* ACCOLATES */
+/* ACCOLATES */
+/* ACCOLATES */
+
+.carousel {
+  cursor: grab;
+  overflow: hidden; 
+  margin-left: 4rem;
+}
+
+.inner-carousel{
+  display: flex;
+}
+
+.accolateItem{
+  background-color: #222222;
+  margin: 1rem;
+  width: 27rem;
+  padding: 1rem 2rem;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+  text-align: center;
+}
+
+.accolateItem img {
+  width: 6rem;
+  border-radius: 50%;
+  display: block;
+  margin: 1rem auto;
+}
+
+.accolateItem h4 {
+  color: gainsboro;
+  margin-bottom: 1rem;
+}
+
+.accolateItem p {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.545)
+}
+
 
 /* CONTACT PAGE  */
 /* CONTACT PAGE  */

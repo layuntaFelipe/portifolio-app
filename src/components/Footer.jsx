@@ -12,10 +12,10 @@ const Footer = () => {
           <Link className='footerLinks' to='hero' spy={true} smooth={true} offset={-100} duration={500}>
             Home
           </Link>
-          <Link className='footerLinks' to='skills' spy={true} smooth={true} offset={-100} duration={500}>
+          <Link className='footerLinks' to='skills' spy={true} smooth={true} offset={400} duration={500}>
             Skills
           </Link>
-          <Link className='footerLinks' to='projects' spy={true} smooth={true} offset={-100} duration={500}>
+          <Link className='footerLinks' to='projects' spy={true} smooth={true} offset={250} duration={500}>
             Projects
           </Link>
         </div>
@@ -24,10 +24,10 @@ const Footer = () => {
         <Link className='footerLinks' to='hero' spy={true} smooth={true} offset={-100} duration={500}>
           Home
         </Link>
-        <Link className='footerLinks' to='skills' spy={true} smooth={true} offset={-100} duration={500}>
+        <Link className='footerLinks' to='skills' spy={true} smooth={true} offset={600} duration={500}>
           Skills
         </Link>
-        <Link className='footerLinks' to='projects' spy={true} smooth={true} offset={-100} duration={500}>
+        <Link className='footerLinks' to='projects' spy={true} smooth={true} offset={450} duration={500}>
           Projects
         </Link>
       </div>
