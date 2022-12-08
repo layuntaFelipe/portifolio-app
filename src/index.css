@@ -253,6 +253,15 @@ body {
   line-height: 1.8rem;
 }
 
+.missionTitle{
+  font-size: 1.5rem; 
+  color: #0f0;
+}
+.mission{
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
 .goToContact {
   color: rgba(0, 255, 0, 0.572);
   font-size: 1.3rem;
@@ -813,5 +822,14 @@ body {
 
   .footerLinks-full {
     display: none !important;
+  }
+  p{
+    font-size: 1rem !important;
+  }
+  .missionTitle{
+    font-size: 1.3rem;
+  }
+  .mission {
+    font-size: 1rem;
   }
 }

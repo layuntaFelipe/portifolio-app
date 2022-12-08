@@ -23,7 +23,8 @@ const Hero = () => {
               return <span key={index} className='letters'>{letter}</span>
             })
           }</p>
-        <h3 style={{fontSize: '1.4rem', marginBottom: '1.5rem'}}><span style={{fontSize: '1.5rem', color: '#0f0'}}>Personal Mission Statement: </span>{
+        <h3 className='missionTitle'>Personal Mission Statement: </h3>
+        <h3 className='mission'>{
           [...mission].map((letter, index) => {
             return <span key={index} className='letters'>{letter}</span>
           })
