@@ -7,13 +7,13 @@ export const accolatesData = [
  {
    name:'Stephen Graham',
    image: stephen,
-   description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt hic molestiae dolorum iste sit, inventore rem ipsa sapiente!',
+   description: 'Felipe is a outstanding and outgoing student who continually strives to improve his understanding of this craft.',
    starsNum: [<FaStar style={{margin: '0 0.7rem'}}/>,<FaStar style={{margin: '0 0.7rem'}}/>, <FaStar style={{margin: '0 0.7rem'}}/>, <FaStar style={{margin: '0 0.7rem'}}/>, <FaStar style={{margin: '0 0.7rem'}}/>],
  },
  {
    name:'Timothy Frantz',
    image: tim,
-   description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt hic molestiae dolorum iste sit, inventore rem ipsa sapiente!',
+   description: "Tremendous work! Looks fantastic, professional, well organized, consistent, and complete. I love the enthusiasm! Great job - you're hired!",
    starsNum: [<FaStar style={{margin: '0 0.7rem'}}/>,<FaStar style={{margin: '0 0.7rem'}}/>, <FaStar style={{margin: '0 0.7rem'}}/>, <FaStar style={{margin: '0 0.7rem'}}/>, <FaStar style={{margin: '0 0.7rem'}}/>],
  },
  {
@@ -22,10 +22,4 @@ export const accolatesData = [
    description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt hic molestiae dolorum iste sit, inventore rem ipsa sapiente!',
    starsNum: [<FaStar style={{margin: '0 0.7rem'}}/>,<FaStar style={{margin: '0 0.7rem'}}/>, <FaStar style={{margin: '0 0.7rem'}}/>, <FaStar style={{margin: '0 0.7rem'}}/>, <FaStar style={{margin: '0 0.7rem'}}/>],
  },
- {
-  name:'Stephen Graham',
-  image: stephen,
-  description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt hic molestiae dolorum iste sit, inventore rem ipsa sapiente!',
-  starsNum: [<FaStar style={{margin: '0 0.7rem'}}/>,<FaStar style={{margin: '0 0.7rem'}}/>, <FaStar style={{margin: '0 0.7rem'}}/>, <FaStar style={{margin: '0 0.7rem'}}/>, <FaStar style={{margin: '0 0.7rem'}}/>],
-},
 ];
