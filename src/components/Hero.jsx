@@ -1,7 +1,7 @@
 import React from 'react';
 import heroIMG from '../assets/felipeHeroPhoto.svg';
 import { Link } from 'react-scroll';
-import pdfCV from '../assets/pdf/Resume-Felipe-Final (2).pdf';
+import pdfCV from "../assets/pdf/Felipe's CV.pdf";
 
 const Hero = () => {
   let title = "I'm Felipe, Junior Full Stack Developer";

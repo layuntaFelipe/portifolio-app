@@ -499,7 +499,6 @@ body {
 .carousel {
   cursor: grab;
   overflow: hidden; 
-  margin-left: 4rem;
 }
 
 .inner-carousel{
