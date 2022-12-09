@@ -13,7 +13,7 @@ const Accolades = () => {
 
   return (
     <div style={{marginBottom: '10rem'}}>
-      <h2 style={{color: 'gainsboro', textAlign: 'center', fontSize: '3rem', paddingBottom: '3.5rem'}}>Reviews / Accolates</h2>
+      <h2 style={{color: 'gainsboro', textAlign: 'center', fontSize: '3rem', paddingBottom: '3.5rem'}}>Reviews / Accolades</h2>
 
       <motion.div ref={carousel} className='carousel'>
         <motion.div drag="x" dragConstraints={{right: 0, left: -width}} className='inner-carousel'>

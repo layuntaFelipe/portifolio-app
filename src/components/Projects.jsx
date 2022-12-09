@@ -22,7 +22,7 @@ const Projects = () => {
               Chef's Eye Website
             </div>
             <div className="projectLinkDiv">
-              <a href="https://github.com/layuntaFelipe/chefsEyeWeb" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
+              <a href="https://github.com/layuntaFelipe/chefsEyeWeb/blob/master/README.md" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
               <a href="https://friendly-raindrop-2948db.netlify.app/" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaLink className='pojectLinkIcons' /></a>
             </div>
           </div>
@@ -34,7 +34,7 @@ const Projects = () => {
               <SiJavascript className='projectIconUsed' color='#F7E017'/>
               <FaGit className='projectIconUsed' color='#F05133' />
             </div>
-            <a className='moreDetailLink' rel='noreferrer' target='_blank' href="https://github.com/layuntaFelipe/chefsEyeWeb#readme">Go to Github for more detail</a>
+            <a className='moreDetailLink' rel='noreferrer' target='_blank' href="https://github.com/layuntaFelipe/chefsEyeWeb/blob/master/README.md">Go to Github for more detail</a>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ const Projects = () => {
         <div className="projectSingleContainer">
           <div className="projectHeader">
             <div className="projectLinkDiv">
-              <a href="https://github.com/layuntaFelipe/crypto-nummum" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
+              <a href="https://github.com/layuntaFelipe/crypto-nummum/blob/master/README.md" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
               <a href="https://crypto-nummum.vercel.app/" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaLink className='pojectLinkIcons' /></a>
             </div>
             <div className="projectTitle">
@@ -62,7 +62,7 @@ const Projects = () => {
               <FaReact className='projectIconUsed' color='#60DBFB' />
               <FaGit className='projectIconUsed' color='#F05133' />
             </div>
-            <a className='moreDetailLink' rel='noreferrer' target='_blank' href="https://github.com/layuntaFelipe/crypto-nummum#readme">Go to Github for more detail</a>
+            <a className='moreDetailLink' rel='noreferrer' target='_blank' href="https://github.com/layuntaFelipe/crypto-nummum/blob/master/README.md">Go to Github for more detail</a>
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@ const Projects = () => {
               House Market Web
             </div>
             <div className="projectLinkDiv">
-              <a href="https://github.com/layuntaFelipe/house-market-app" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
+              <a href="https://github.com/layuntaFelipe/house-market-app/blob/master/README.md" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
               <a href="https://house-market-app-plum.vercel.app/" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaLink className='pojectLinkIcons' /></a>
             </div>
           </div>
@@ -92,7 +92,7 @@ const Projects = () => {
               <SiFirebase className='projectIconUsed' color='#FFCB2D' />
               <FaGit className='projectIconUsed' color='#F05133' />
             </div>
-            <a className='moreDetailLink' rel='noreferrer' target='_blank' href="https://github.com/layuntaFelipe/house-market-app#readme">Go to Github for more detail</a>
+            <a className='moreDetailLink' rel='noreferrer' target='_blank' href="https://github.com/layuntaFelipe/house-market-app/blob/master/README.md">Go to Github for more detail</a>
           </div>
         </div>
       </div>
@@ -104,7 +104,7 @@ const Projects = () => {
         <div className="projectSingleContainer">
           <div className="projectHeader">
             <div className="projectLinkDiv">
-              <a href="https://github.com/layuntaFelipe/support-desk" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
+              <a href="https://github.com/layuntaFelipe/support-desk/blob/master/README.md" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
               <a href="https://supportdeskappleapp.herokuapp.com/" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaLink className='pojectLinkIcons'/></a>
             </div>
             <div className="projectTitle">
@@ -126,7 +126,7 @@ const Projects = () => {
               <SiExpress className='projectIconUsed' color='#009F38' />
               <FaGit className='projectIconUsed' color='#F05133' />
             </div>
-            <a className='moreDetailLink' rel='noreferrer' target='_blank' href="https://github.com/layuntaFelipe/support-desk#readme">Go to Github for more detail</a>
+            <a className='moreDetailLink' rel='noreferrer' target='_blank' href="https://github.com/layuntaFelipe/support-desk/blob/master/README.md">Go to Github for more detail</a>
           </div>
         </div>
       </div>
@@ -139,7 +139,7 @@ const Projects = () => {
               Chef's Eye Software
             </div>
             <div className="projectLinkDiv">
-              <a href="https://github.com/layuntaFelipe/chefsEyeSoft" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
+              <a href="https://github.com/layuntaFelipe/chefsEyeSoft/blob/master/README.md" rel='noreferrer' target='_blank' style={{color: 'white'}}><FaGithub className='pojectLinkIcons'/></a>
               <FaLink className='pojectLinkIcons' />
             </div>
           </div>
@@ -161,7 +161,7 @@ const Projects = () => {
               <SiExpress className='projectIconUsed' color='#009F38' />
               <FaGit className='projectIconUsed' color='#F05133' />
             </div>
-            <a className='moreDetailLink' rel='noreferrer' target='_blank' href="https://github.com/layuntaFelipe/ChefsEye-Software#readme">Go to Github for more detail</a>
+            <a className='moreDetailLink' rel='noreferrer' target='_blank' href="https://github.com/layuntaFelipe/chefsEyeSoft/blob/master/README.md">Go to Github for more detail</a>
           </div>
         </div>
       </div>
